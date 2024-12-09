@@ -1,6 +1,10 @@
 # rio-gsidem
 Encode arbitrary bit depth rasters in pseudo base-256 as GSI DEM RGB
 
+## Warning
+
+This code has error of handling nodata source, please use [gdal2NPtiles](https://github.com/qchizu/gdal2NPtiles).
+
 ## Original code
 
 This code is based on the original code from [rio-rgbify](https://github.com/mapbox/rio-rgbify).
